@@ -8,20 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		06C2E9F41F8F052F003D0ADF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C2E9F31F8F052F003D0ADF /* AppDelegate.swift */; };
-		06C2E9F61F8F052F003D0ADF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C2E9F51F8F052F003D0ADF /* ViewController.swift */; };
 		06C2E9F91F8F052F003D0ADF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06C2E9F71F8F052F003D0ADF /* Main.storyboard */; };
 		06C2E9FB1F8F052F003D0ADF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06C2E9FA1F8F052F003D0ADF /* Assets.xcassets */; };
 		06C2E9FE1F8F052F003D0ADF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06C2E9FC1F8F052F003D0ADF /* LaunchScreen.storyboard */; };
+		06C2EA061F8F06A3003D0ADF /* CardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C2EA051F8F06A3003D0ADF /* CardsViewController.swift */; };
+		06C2EA0A1F8F0C2A003D0ADF /* DraggableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C2EA091F8F0C2A003D0ADF /* DraggableImageView.swift */; };
+		06C2EA0C1F8F0F8A003D0ADF /* DraggableImageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06C2EA0B1F8F0F8A003D0ADF /* DraggableImageView.xib */; };
+		06C2EA101F8F2A1C003D0ADF /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C2EA0F1F8F2A1C003D0ADF /* ProfileViewController.swift */; };
+		06C2EA131F8F5267003D0ADF /* BaseTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C2EA111F8F5267003D0ADF /* BaseTransition.swift */; };
+		06C2EA141F8F5267003D0ADF /* FadeTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C2EA121F8F5267003D0ADF /* FadeTransition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		06C2E9F01F8F052F003D0ADF /* Tinderoo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tinderoo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06C2E9F31F8F052F003D0ADF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		06C2E9F51F8F052F003D0ADF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		06C2E9F81F8F052F003D0ADF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		06C2E9FA1F8F052F003D0ADF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		06C2E9FD1F8F052F003D0ADF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		06C2E9FF1F8F052F003D0ADF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06C2EA051F8F06A3003D0ADF /* CardsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CardsViewController.swift; path = ../CardsViewController.swift; sourceTree = "<group>"; };
+		06C2EA091F8F0C2A003D0ADF /* DraggableImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DraggableImageView.swift; sourceTree = "<group>"; };
+		06C2EA0B1F8F0F8A003D0ADF /* DraggableImageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DraggableImageView.xib; sourceTree = "<group>"; };
+		06C2EA0F1F8F2A1C003D0ADF /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		06C2EA111F8F5267003D0ADF /* BaseTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTransition.swift; sourceTree = "<group>"; };
+		06C2EA121F8F5267003D0ADF /* FadeTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FadeTransition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +64,13 @@
 		06C2E9F21F8F052F003D0ADF /* Tinderoo */ = {
 			isa = PBXGroup;
 			children = (
+				06C2EA111F8F5267003D0ADF /* BaseTransition.swift */,
+				06C2EA121F8F5267003D0ADF /* FadeTransition.swift */,
+				06C2EA051F8F06A3003D0ADF /* CardsViewController.swift */,
+				06C2EA0F1F8F2A1C003D0ADF /* ProfileViewController.swift */,
+				06C2EA0B1F8F0F8A003D0ADF /* DraggableImageView.xib */,
+				06C2EA091F8F0C2A003D0ADF /* DraggableImageView.swift */,
 				06C2E9F31F8F052F003D0ADF /* AppDelegate.swift */,
-				06C2E9F51F8F052F003D0ADF /* ViewController.swift */,
 				06C2E9F71F8F052F003D0ADF /* Main.storyboard */,
 				06C2E9FA1F8F052F003D0ADF /* Assets.xcassets */,
 				06C2E9FC1F8F052F003D0ADF /* LaunchScreen.storyboard */,
@@ -125,6 +140,7 @@
 			files = (
 				06C2E9FE1F8F052F003D0ADF /* LaunchScreen.storyboard in Resources */,
 				06C2E9FB1F8F052F003D0ADF /* Assets.xcassets in Resources */,
+				06C2EA0C1F8F0F8A003D0ADF /* DraggableImageView.xib in Resources */,
 				06C2E9F91F8F052F003D0ADF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,7 +152,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				06C2E9F61F8F052F003D0ADF /* ViewController.swift in Sources */,
+				06C2EA061F8F06A3003D0ADF /* CardsViewController.swift in Sources */,
+				06C2EA131F8F5267003D0ADF /* BaseTransition.swift in Sources */,
+				06C2EA0A1F8F0C2A003D0ADF /* DraggableImageView.swift in Sources */,
+				06C2EA101F8F2A1C003D0ADF /* ProfileViewController.swift in Sources */,
+				06C2EA141F8F5267003D0ADF /* FadeTransition.swift in Sources */,
 				06C2E9F41F8F052F003D0ADF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
